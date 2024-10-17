@@ -1,0 +1,4 @@
+OPTIONS=" --collect-all {{ mongodb_exporter_options }}"
+
+MONGODB_URI=mongodb://prometheus:{{ mongodb_exporter_user_pass }}@127.0.0.1/admin
+
